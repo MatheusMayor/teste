@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Goldfibra</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <!-- Header que dis respeito ao mobile -->
+    <header class="header">
+        <img src="./assets/logo.svg" alt="">
+        <!-- <img class="cabecalho__menu" src="./assets/menu-hamburger.svg" alt=""> -->
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="/">Portal do cliente</a></li>
+                <li><a href="/">Início</a></li>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Contatos</a></li>
+                <li><a href="/">Contratos</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- Header que dis respeito ao fullscren em desktop -->
+    <header class="header-xl">
+        <img src="./assets/logo.svg" alt="">
+        <nav class="nav-xl">
+            <ul class="menu-xl">
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">CONTATOS</a></li>
+                <li><a href="#">CONTRATOS</a></li>
+                <li><a href="#">PORTAL DO CLIENTE <img src="./assets/person.svg" style="width: 24px;" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <nav class="menu-lateral">
+        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Portal do cliente</a>
+        <a href="#" class="menu-lateral__link">Início</a>
+        <a href="#" class="menu-lateral__link">Sobre</a>
+        <a href="#" class="menu-lateral__link">Contato</a>
+        <a href="#" class="menu-lateral__link">Contratos</a>
+        <a href="#" class="menu-lateral__link">Franquias</a>
+    </nav> -->
+    <main>
+
+        <section class="banner">
+            <span class="banner--degree"></span>
+            <img src="./assets/globe.jpg" alt="" class="banner__hero">
+        </section>
+
+        <section class="title">
+            <h1>Planos de Internet</h1>
+            <p>GoldFibra, sua internet com técnologia 
+                fibra óptica e wifi 5G</p>
+        </section>
+
+        <section class="planos">
+            <div class="planos__opc">
+                <p><a href="#">Residencial</a></p>
+                <p><a href="#">Empresarial</a></p>
+                <p><a href="#">ISP</a></p>
+            </div>
+
+            <article class="planos__price">
+
+                <div class="planos__opc--xl">
+                        <button class="planos__xl--button">
+                            <p><a href="#">Residencial</a></p>
+                            <p>Ideal para toda familia</p>
+                        </button>
+                        <button class="planos__xl--button">
+                            <a href="#">Empresarial</a>
+                            <p>Conecte com o melhor</p>
+                        </button>
+                        <button class="planos__xl--button">
+                            <a href="#">ISP</a>
+                            <p>ISP para sua empresa</p>
+                        </button>
+                </div>
+
+                <div class="planos__price--card mobile--planos">
+                    <h2>100 MEGA</h2>
+                    <p class="planos__price--pone">R$<span>99,90</span></p>
+                    <p class="planos__price--ptwo">R$79,90 <span>/MÊS</span></p>
+                    <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                    <ol class="planos__price--list">
+                        <li><img src="./assets/check.svg" alt="">Dowload 100MB</li>
+                        <li><img src="./assets/check.svg" alt="">Upload 100MB</li>
+                        <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                        <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                        <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                        <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                        <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                        <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                    </ol>
+                    <button class="planos__price--button">
+                        <a href="#" target="_blank">Eu quero</a>
+                    </button>
+                    <p class="planos__price--pfour">
+                        <img src="./assets/add.svg" alt="">
+                        Detalhes da oferta
+                    </p>
+                </div>
+
+                <div class="planos__price--card mobile--planos">
+                    <h2>400 MEGA</h2>
+                    <p class="planos__price--pone">R$<span>149,90</span></p>
+                    <p class="planos__price--ptwo">R$99,90 <span>/MÊS</span></p>
+                    <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                    <ol class="planos__price--list">
+                        <li><img src="./assets/check.svg" alt="">Dowload 400MB</li>
+                        <li><img src="./assets/check.svg" alt="">Upload 400MB</li>
+                        <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                        <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                        <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                        <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                        <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                        <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                    </ol>
+                    <button class="planos__price--button"><a href="#" target="_blank">Eu quero</a></button>
+                    <p class="planos__price--pfour"><img src="./assets/add.svg" alt="">Detalhes da oferta</p>
+                </div>
+
+                <div class="planos__price--card mobile--planos">
+                    <h2>600 MEGA</h2>
+                    <p class="planos__price--pone">R$<span>249,90</span></p>
+                    <p class="planos__price--ptwo">R$139,90 <span>/MÊS</span></p>
+                    <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                    <ol class="planos__price--list">
+                        <li><img src="./assets/check.svg" alt="">Dowload 600MB</li>
+                        <li><img src="./assets/check.svg" alt="">Upload 600MB</li>
+                        <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                        <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                        <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                        <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                        <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                        <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                    </ol>
+                    <button class="planos__price--button"><a href="#" target="_blank">Eu quero</a></button>
+                    <p class="planos__price--pfour"><img src="./assets/add.svg" alt="">Detalhes da oferta</p>
+                </div>
+
+                <div class="planos__price--card mobile--planos">
+                    <h2>800 MEGA</h2>
+                    <p class="planos__price--pone">R$<span>299,90</span></p>
+                    <p class="planos__price--ptwo">R$209,90 <span>/MÊS</span></p>
+                    <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                    <ol class="planos__price--list">
+                        <li><img src="./assets/check.svg" alt="">Dowload 800MB</li>
+                        <li><img src="./assets/check.svg" alt="">Upload 800MB</li>
+                        <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                        <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                        <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                        <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                        <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                        <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                    </ol>
+                    <button class="planos__price--button"><a href="#" target="_blank">Eu quero</a></button>
+                    <p class="planos__price--pfour"><img src="./assets/add.svg" alt="">Detalhes da oferta</p>
+                </div>
+
+
+                <div class="flex-container">
+
+                    <div class="planos__price--card">
+                        <h2>100 MEGA</h2>
+                        <p class="planos__price--pone">R$<span>99,90</span></p>
+                        <p class="planos__price--ptwo">R$79,90 <span>/MÊS</span></p>
+                        <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                        <ol class="planos__price--list">
+                            <li><img src="./assets/check.svg" alt="">Dowload 100MB</li>
+                            <li><img src="./assets/check.svg" alt="">Upload 100MB</li>
+                            <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                            <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                            <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                            <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                            <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                            <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                        </ol>
+                        <button class="planos__price--button">
+                            <a href="#" target="_blank">Eu quero</a>
+                        </button>
+                        <p class="planos__price--pfour">
+                            <img src="./assets/add.svg" alt="">
+                            Detalhes da oferta
+                        </p>
+                    </div>
+
+                    <div class="planos__price--card">
+                        <h2>400 MEGA</h2>
+                        <p class="planos__price--pone">R$<span>149,90</span></p>
+                        <p class="planos__price--ptwo">R$99,90 <span>/MÊS</span></p>
+                        <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                        <ol class="planos__price--list">
+                            <li><img src="./assets/check.svg" alt="">Dowload 400MB</li>
+                            <li><img src="./assets/check.svg" alt="">Upload 400MB</li>
+                            <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                            <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                            <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                            <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                            <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                            <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                        </ol>
+                        <button class="planos__price--button"><a href="#" target="_blank">Eu quero</a></button>
+                        <p class="planos__price--pfour"><img src="./assets/add.svg" alt="">Detalhes da oferta</p>
+                    </div>
+
+                    <div class="planos__price--card">
+                        <h2>600 MEGA</h2>
+                        <p class="planos__price--pone">R$<span>249,90</span></p>
+                        <p class="planos__price--ptwo">R$139,90 <span>/MÊS</span></p>
+                        <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                        <ol class="planos__price--list">
+                            <li><img src="./assets/check.svg" alt="">Dowload 600MB</li>
+                            <li><img src="./assets/check.svg" alt="">Upload 600MB</li>
+                            <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                            <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                            <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                            <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                            <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                            <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                        </ol>
+                        <button class="planos__price--button"><a href="#" target="_blank">Eu quero</a></button>
+                        <p class="planos__price--pfour"><img src="./assets/add.svg" alt="">Detalhes da oferta</p>
+                    </div>
+
+                    <div class="planos__price--card">
+                        <h2>800 MEGA</h2>
+                        <p class="planos__price--pone">R$<span>299,90</span></p>
+                        <p class="planos__price--ptwo">R$209,90 <span>/MÊS</span></p>
+                        <p class="planos__price--pthree">Desconto de R$ 20,00 valido só até a data do vencimento</p>
+                        <ol class="planos__price--list">
+                            <li><img src="./assets/check.svg" alt="">Dowload 800MB</li>
+                            <li><img src="./assets/check.svg" alt="">Upload 800MB</li>
+                            <li><img src="./assets/check.svg" alt="">Sem Franquias</li>
+                            <li><img src="./assets/check.svg" alt="">Suporte Técnico 24h</li>
+                            <li><img src="./assets/check.svg" alt="">100% Fibra Óptica</li>
+                            <li><img src="./assets/check.svg" alt="">IP fixo</li>
+                            <li><img src="./assets/check.svg" alt="">Maior cobertura</li>
+                            <li><img src="./assets/check.svg" alt="">Sem contrato de fidelidade</li>
+                        </ol>
+                        <button class="planos__price--button"><a href="#" target="_blank">Eu quero</a></button>
+                        <p class="planos__price--pfour"><img src="./assets/add.svg" alt="">Detalhes da oferta</p>
+                    </div>
+                </div>
+                
+            </article>
+        </section>
+            
+        <section class="info">
+            <article class="info__title">
+                <h2>Aproveite ao máximo</h2>
+                <p>Seu plano internet fibra ótica com a 
+                    exelência wifi 5G</p>
+            </article>
+
+            <article class="info__cards">
+                <div class="info__cards--card one">
+                    <img src="https://source.unsplash.com/random/285x147/?home" alt="">
+                    <p>Informação referente ao plano Residencial</p>
+                    <h3>Conecte-se com o nosso WiFi e leve internet pra casa toda</h3>
+                    <p class="p">Tenha sinal da internet banda larga em vários lugares da sua empresa pra todo sua equipe.</p>
+                </div>
+
+                <div class="info__cards--card two">
+                    <img src="https://source.unsplash.com/random/285x147/?game" alt="">
+                    <p>Informação referente ao plano Residencial</p>
+                    <h3>Jogue online com internet de velocidade e menos latência
+.</h3>
+                </div>
+
+                <div class="info__cards--card three">
+                    <img src="https://source.unsplash.com/random/285x147/?movie" alt="">
+                    <p>Informação referente ao plano Residencial</p>
+                    <h3>Assista aos filmes e séries que você e sua família amam</h3>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="infoCta">
+
+            <div class="infoCta__img"><img src="./assets/coffee.jpg" alt=""></div>
+            <div class="infoCta__text">
+                <h2>Saiba mais sobre a empresa GoldFibra</h2>
+                <p>Alta velocidade e estabilidade de sinal pra você aproveitar a melhor experiência de conexão.
+                </p>
+                <p>Com Gold Fibra, o cabo da fibra óptica da empresa a sua casa. Por isso, a internet fibra é mais rápida e com menos oscilação de sinal.
+                </p>
+                <p>Publique fotos e vídeos muito mais rápido nas redes sociais, assista a vídeos, rendenize seus filmes e séries com conexão estável, jogue online sem lag. Conexão de VPN com estabilidade, para você que trabalha em home office .</p>
+                <p>Com os nossos planos de internet residencial Grupo Gold, sua casa vai ficar muito mais conectada. Assine Gold Fibra e aproveite.
+                 </p>
+                 
+            </div>
+
+            <button>
+                <img src="./assets/whatsapp.svg" alt=""> Assine pelo WhatsApp
+            </button>
+            
+        </section>
+
+        <section class="service">
+            <article class="service__title">
+                <h2>Internet fixa: outros serviços</h2>
+            </article>
+            <article class="service__opc">
+                <div class="service__grid service__card">
+                    <p class="service__opc--one">GRUPO GOLD</p>
+                    <h3 class="service__opc--h3">Internet banda larga dentro e fora de casa</h3>
+                    <p class="service__opc--two">Confira</p>
+                </div>
+                <img src="./assets/keyboca.svg" alt="">
+            </article>
+            <article class="service__opc">
+                <div class="service__grid service__card">
+                    <p class="service__opc--one">GRUPO GOLD</p>
+                    <h3 class="service__opc--h3">Internet banda larga dentro e fora de casa</h3>
+                    <p class="service__opc--two">Confira</p>
+                </div>
+                <img src="./assets/acelerator.svg" alt="">
+            </article>
+        </section>
+    
+    </main>
+
+
+
+    <footer>
+        <article class="footer__article">
+            <p>Visite nosso instagram e fique por dentro das novidades <img src="./assets/insta.svg" alt=""></p>
+            <p>Copyright 2022 &copy; Goldfibra. Todos direitos reservados</p>
+        </article>
+     
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
